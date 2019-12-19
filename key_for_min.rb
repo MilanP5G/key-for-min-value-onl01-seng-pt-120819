@@ -8,7 +8,6 @@ def key_for_min_value(name_hash)
   name_hash.collect do |key, value|
     if smallest_value == 0 || value < smallest_value 
       smallest_key = key 
-      smallest_value = value
     end 
   end 
   smallest_key
