@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   
-  name_hash.collect do |key, value|
-    
+  key = hash.sort{|a,b| a[1] <=> b[1]}.last
+  puts key  
   
 end
