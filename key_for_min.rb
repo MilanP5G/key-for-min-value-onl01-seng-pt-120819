@@ -7,8 +7,7 @@ def key_for_min_value(name_hash)
     if name_hash == {}
        return nil
     else
-       test = test.sort_by {|k, v| v}
-       test[0]
+       
    end
   end 
   
